@@ -55,8 +55,6 @@ main>div:nth-of-type(1){
 main>p:nth-of-type(1){
     height: 400px;
     overflow: scroll;
-
-    
 }
 main>p:nth-of-type(1)::-webkit-scrollbar {
     display: none;
