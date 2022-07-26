@@ -4,12 +4,53 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 nav{
     background-color: gray;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 131px;
     align-items: center;
 }
 nav li{
+    display: inline-block;
     list-style: none;
+}
+.BannerImage{
+    display: flex;
+    justify-content: center;
+}
+.threeImages{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.imageAndText{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.imageAndText p {
+    height: 400px;
+    width: 460px;
+    overflow: scroll;
+}
+.imageAndText p::-webkit-scrollbar {
+ display: none;
+}
+.imageAndText button {
+    width: 150px;
+    height: 30px;
+ background-color: black;
+}
+span {
+color: white;
+ font-size: larger;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: gray;
 }
