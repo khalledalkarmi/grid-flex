@@ -10,6 +10,7 @@ nav{
     display: grid;
     grid-template-columns: 200px 190px 190px 190px 190px;
     justify-items: center;
+    align-items: center;
     justify-content: center;
 }
 nav li{
